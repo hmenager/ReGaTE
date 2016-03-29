@@ -19,7 +19,7 @@ ReGaTE is compatible with version 2.7 of Python. It also requires a set of pytho
 
 Installation procedure
 ======================
-We recommend to use a virtualenv in order to avoid conflicts with your LINUX configuration (as well as with BioBlend main version).
+We recommend to use a virtualenv in order to avoid conflicts with your system configuration. The steps of this procedure are detailed below.
 
 First install virtualenv::
 
