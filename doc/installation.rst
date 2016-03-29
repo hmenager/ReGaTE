@@ -14,19 +14,8 @@ Installation
 
 ReGaTE dependencies
 ===================
-ReGaTE has five dependencies
- - Python modules *PyYAML* (>=3.11)
- - Python modules *rdflib* (>=4.2.0)
- - Python modules *requests* (>=2.7.0)
- - Python modules *cheetah* (>=2.4.4)
- - Python modules *configparser* (>=3.3.0.post2)
- - Python modules *bioblend* (>=0.5.4)
- - Python modules *lxml* (>=3.4.2)
- 
-These dependencies will automatically be installed during ReGaTE installation procedure.
 
-**Python and Python-dev version 2.7** are required to run ReGaTE and ReMaG: https://docs.python.org/2.7/index.html
- 
+ReGaTE is compatible with version 2.7 of Python. It also requires a set of python libraries: *PyYAML*, *rdflib*, *requests*, *cheetah*, *configparser*, *bioblend*, and *lxml*. These dependencies are automatically installed by the ReGaTE installation procedure. The lxml library requires the python header files, so this means that if you are installing on an ubuntu machine for instance, you must have installed the python-dev package. 
 
 Installation procedure
 ======================
